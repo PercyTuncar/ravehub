@@ -1,0 +1,153 @@
+/* Estilos para el Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  color: #fff;
+  padding: 5rem 10rem;
+}
+
+.hero-title {
+  font-size: 6rem;
+  margin-bottom: 2rem;
+}
+
+.hero-subtitle {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.hero-location {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  margin-right: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  background-color: #fff;
+  color: #000;
+}
+
+.social-icons i {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para el Event Details Section */
+.event-details { 
+  color: #fff;
+  padding: 5rem 10rem;
+}
+
+.event-details-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.event-details-tickets {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.event-details-lineup {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.event-details-lineup li {
+  margin-right: 1.5rem;
+}
+
+.event-details-bottle {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.event-location {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-location-details {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.event-location-address {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.event-location-tickets {
+  font-size: 1.8rem;
+  border: 2px solid #fff;
+  padding: 1rem 3rem;
+  border-radius: 3rem;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.event-location-tickets:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Estilos para la Newsletter Section */
+.newsletter {
+  background-color: #333;
+  color: #fff;
+  padding: 5rem 10rem;
+  text-align: center;
+}
+
+.newsletter-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.newsletter-description {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.newsletter-input {
+  font-size: 1.8rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  border-radius: 3rem;
+  border: none;
+}
+
+.newsletter-button {
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+  border-radius: 3rem;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  transition: all 0.3s ease;
+}
